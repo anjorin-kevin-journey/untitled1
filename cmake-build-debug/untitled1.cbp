@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/kevin/CLionProjects/input/untitled1/input_output.c">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="C:/Users/kevin/CLionProjects/input/untitled1/main.c">
 			<Option target="untitled1"/>
 		</Unit>

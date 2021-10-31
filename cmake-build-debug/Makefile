@@ -128,6 +128,30 @@ untitled1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/build
 .PHONY : untitled1/fast
 
+input_output.obj: input_output.c.obj
+.PHONY : input_output.obj
+
+# target to build an object file
+input_output.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/input_output.c.obj
+.PHONY : input_output.c.obj
+
+input_output.i: input_output.c.i
+.PHONY : input_output.i
+
+# target to preprocess a source file
+input_output.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/input_output.c.i
+.PHONY : input_output.c.i
+
+input_output.s: input_output.c.s
+.PHONY : input_output.s
+
+# target to generate assembly for a file
+input_output.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled1.dir\build.make CMakeFiles/untitled1.dir/input_output.c.s
+.PHONY : input_output.c.s
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +185,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled1
+	@echo ... input_output.obj
+	@echo ... input_output.i
+	@echo ... input_output.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
